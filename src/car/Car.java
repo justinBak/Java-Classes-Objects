@@ -8,7 +8,9 @@ public class Car {
 	
 	public Car() 
 	{
-		
+		this.model = "Fusion";
+		this.age = 19;
+		this.make = "Ford";
 	}
 	
 	public Car(String model, int age) 
@@ -63,7 +65,7 @@ public class Car {
 		}
 	}
 	
-	public String inStock() 
+	public String info() 
 	{
 		return "Currently, we have a" + this.make + this.model + this.age + "in stock";
 	}
@@ -71,6 +73,5 @@ public class Car {
 	public static void main(String[] args) {
 		Car car = new Car();
 		
-		car.getModel();
 	}
 }
