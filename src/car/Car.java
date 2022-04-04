@@ -1,3 +1,4 @@
+package car;
 
 public class Car {
 
@@ -68,6 +69,8 @@ public class Car {
 	}
 	
 	public static void main(String[] args) {
-		Car car = new Car("Fusion", 19, "Ford");
+		Car car = new Car();
+		
+		car.getModel();
 	}
 }
