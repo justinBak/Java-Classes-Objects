@@ -6,6 +6,37 @@ public class Car {
 	private int age;
 	private String make;
 	
+	
+	public String getModel() 
+	{
+		return model;
+	}
+	
+	public void setModel(String model) 
+	{
+		this.model = model;
+		System.out.println("WTF?!");
+	}
+	
+	public int getAge() 
+	{
+		return age;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public String getMake() 
+	{
+		return make;
+	}
+	
+	public void setMake(String make) 
+	{
+		this.make = make;
+	}
+	
 	public Car() 
 	{
 		this.model = "Fusion";
@@ -26,36 +57,6 @@ public class Car {
 		this.make = make;
 	}
 	
-	public String getModel() 
-	{
-		return model;
-	}
-	
-	public void setModel(String model) 
-	{
-		this.model = model;
-	}
-	
-	public int getAge() 
-	{
-		return age;
-	}
-	
-	public void setAge(int age) {
-		this.age = age;
-	}
-	
-	public String getMake() 
-	{
-		return make;
-	}
-	
-	public void setMake(String make) 
-	{
-		this.make = "Fusion";
-		System.out.println(make);
-	}
-	
 	public boolean isNew() 
 	{
 		if(this.age == 22) {
@@ -70,8 +71,4 @@ public class Car {
 		return "Currently, we have a" + this.make + this.model + this.age + "in stock";
 	}
 	
-	public static void main(String[] args) {
-		Car car = new Car();
-		
-	}
 }
