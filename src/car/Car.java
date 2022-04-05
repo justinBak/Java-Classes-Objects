@@ -39,9 +39,6 @@ public class Car {
 	
 	public Car() 
 	{
-		this.model = "Fusion";
-		this.age = 19;
-		this.make = "Ford";
 	}
 	
 	public Car(String model, int age) 
